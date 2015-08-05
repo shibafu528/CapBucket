@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapBucket", "CapBucket\CapBucket.csproj", "{1AF11AD5-998F-41C6-B75C-82EA725BE2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transposer", "Transposer\Transposer.csproj", "{74D9EE6B-7066-41F1-AC7B-3812EB7A0DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transposers", "Transposers", "{F8B7CF8B-28EE-4F1A-ABCD-CB80DC3501E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystem", "FileSystem\FileSystem.csproj", "{9BA44293-1CCD-450F-9AE9-BFB67ED81F57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF11AD5-998F-41C6-B75C-82EA725BE2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF11AD5-998F-41C6-B75C-82EA725BE2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF11AD5-998F-41C6-B75C-82EA725BE2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF11AD5-998F-41C6-B75C-82EA725BE2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D9EE6B-7066-41F1-AC7B-3812EB7A0DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D9EE6B-7066-41F1-AC7B-3812EB7A0DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D9EE6B-7066-41F1-AC7B-3812EB7A0DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D9EE6B-7066-41F1-AC7B-3812EB7A0DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA44293-1CCD-450F-9AE9-BFB67ED81F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA44293-1CCD-450F-9AE9-BFB67ED81F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA44293-1CCD-450F-9AE9-BFB67ED81F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA44293-1CCD-450F-9AE9-BFB67ED81F57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA44293-1CCD-450F-9AE9-BFB67ED81F57} = {F8B7CF8B-28EE-4F1A-ABCD-CB80DC3501E0}
+	EndGlobalSection
+EndGlobal
